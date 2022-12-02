@@ -127,6 +127,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 STATIC_URL = '/static/'
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
