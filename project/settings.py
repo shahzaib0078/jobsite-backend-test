@@ -134,7 +134,7 @@ MIDDLEWARE_CLASSES = (
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-STATIC_URL = '/static/'
+STATIC_URL = '/project/static'
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/')
 # Default primary key field type
